@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <div class="nav">
+            <div class="navbox">
+                <button class="play">Play Game</button>
+                <button id="restart">Restart Game</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="heading">
+               <p class="title">TIC TAC TOE</p> 
+               <p class="message"></p>
+            </div>
+            <div class="area">
+                <div class="board">
+                    <div id="cell-0-0" class="cell"></div>
+                    <div id="cell-0-1" class="cell zero"></div>
+                    <div id="cell-0-2" class="cell"></div>
+                    <div id="cell-1-0" class="cell one"></div>
+                    <div id="cell-1-1" class="cell one"></div>
+                    <div id="cell-1-2" class="cell one"></div>
+                    <div id="cell-2-0" class="cell"></div>
+                    <div id="cell-2-1" class="cell two"></div>
+                    <div id="cell-2-2" class="cell"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
     <script src="javascript.js" type="text/javascript"></script>
 </body>
 </html>
